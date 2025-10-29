@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html class="light" lang="ja"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Trattoria Sole Menu</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@400;500;700;900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+<script id="tailwind-config">
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          colors: {
+            "primary": "#E2725B",
+            "background-light": "#F5F5DC",
+            "background-dark": "#2d201a",
+            "text-light-primary": "#5C4033",
+            "text-light-secondary": "#556B2F",
+            "text-dark-primary": "#F5F5DC",
+            "text-dark-secondary": "#a8b88a",
+            "border-light": "#e4e4d4",
+            "border-dark": "#4a352a",
+          },
+          fontFamily: {
+            "display": ["Epilogue", "sans-serif"]
+          },
+          borderRadius: {
+            "DEFAULT": "0.25rem",
+            "lg": "0.5rem",
+            "xl": "0.75rem",
+            "full": "9999px"
+          },
+        },
+      },
+    }
+  </script>
+</head>
+<body class="bg-background-light dark:bg-background-dark font-display text-text-light-primary dark:text-text-dark-primary">
+<div class="relative flex h-auto min-h-screen w-full flex-col group/design-root overflow-x-hidden">
+<div class="layout-container flex h-full grow flex-col">
+<div class="px-4 sm:px-8 md:px-16 lg:px-24 xl:px-40 flex flex-1 justify-center py-5">
+<div class="layout-content-container flex flex-col max-w-[960px] flex-1">
+<header class="flex items-center justify-between whitespace-nowrap border-b border-solid border-border-light dark:border-border-dark px-4 sm:px-6 md:px-10 py-3">
+<div class="flex items-center gap-4">
+<div class="size-6 text-primary">
+<svg fill="none" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+<path clip-rule="evenodd" d="M12.0799 24L4 19.2479L9.95537 8.75216L18.04 13.4961L18.0446 4H29.9554L29.96 13.4961L38.0446 8.75216L44 19.2479L35.92 24L44 28.7521L38.0446 39.2479L29.96 34.5039L29.9554 44H18.0446L18.04 34.5039L9.95537 39.2479L4 28.7521L12.0799 24Z" fill="currentColor" fill-rule="evenodd"></path>
+</svg>
+</div>
+<h1 class="text-lg font-bold leading-tight tracking-[-0.015em] text-text-light-primary dark:text-text-dark-primary">Trattoria Sole</h1>
+</div>
+<div class="hidden md:flex flex-1 justify-end gap-8">
+<div class="flex items-center gap-9">
+<a class="text-sm font-medium leading-normal text-text-light-primary dark:text-text-dark-primary hover:text-primary dark:hover:text-primary transition-colors" href="#">Top</a>
+<a class="text-sm font-medium leading-normal text-text-light-primary dark:text-text-dark-primary hover:text-primary dark:hover:text-primary transition-colors" href="#">Menu</a>
+<a class="text-sm font-medium leading-normal text-text-light-primary dark:text-text-dark-primary hover:text-primary dark:hover:text-primary transition-colors" href="#">About Us</a>
+<a class="text-sm font-medium leading-normal text-text-light-primary dark:text-text-dark-primary hover:text-primary dark:hover:text-primary transition-colors" href="#">Contact</a>
+</div>
+<button class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 bg-primary text-white text-sm font-bold leading-normal tracking-[0.015em] hover:opacity-90 transition-opacity">
+<span class="truncate">Book a table</span>
+</button>
+</div>
+<button class="md:hidden flex items-center justify-center text-text-light-primary dark:text-text-dark-primary">
+<span class="material-symbols-outlined">menu</span>
+</button>
+</header>
+<main>
+<div class="@container mt-5">
+<div class="@[480px]:px-4 @[480px]:py-3">
+<div class="bg-cover bg-center flex flex-col justify-end overflow-hidden @[480px]:rounded-lg min-h-80" data-alt="A beautifully plated pasta dish on a rustic wooden table, bathed in warm sunlight." style='background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 35%), url("https://lh3.googleusercontent.com/aida-public/AB6AXuAI9RKhb31SsWr3fraIJsbhQTa81s51SNkYweUefVw4C6ZI5J-EvHqrqW-PadKqpi6BQZxCKakL7h2oSTzdihm0MUm5gKre4UFblBg87xWsnsaGX2mjt-i9zId-E7ifp2w58EWfIWyHUddxmQaHJMEm1oBXARMpIzwVq-mF6GXg9A5sYvK03I9DJ9oxkOKYVzCCmmBsvx3EgKpFSn1K2PXuAUr9hk1lJrZQEKCM1UR8dJW-6OAVGxwQTuJaLkgpGeROughRHbKcWQdQ");'>
+<div class="flex p-6">
+<p class="text-white tracking-tight text-[36px] font-bold leading-tight">Our Menu</p>
+</div>
+</div>
+</div>
+</div>
+<div class="pb-3 mt-4">
+<div class="flex border-b border-border-light dark:border-border-dark px-4 gap-8">
+<a class="flex flex-col items-center justify-center border-b-[3px] border-b-primary pb-[13px] pt-4" href="#lunch">
+<p class="text-sm font-bold leading-normal tracking-[0.015em] text-text-light-primary dark:text-text-dark-primary">Lunch</p>
+</a>
+<a class="flex flex-col items-center justify-center border-b-[3px] border-b-transparent pb-[13px] pt-4" href="#dinner">
+<p class="text-sm font-bold leading-normal tracking-[0.015em] text-text-light-secondary dark:text-text-dark-secondary hover:text-text-light-primary dark:hover:text-text-dark-primary transition-colors">Dinner</p>
+</a>
+<a class="flex flex-col items-center justify-center border-b-[3px] border-b-transparent pb-[13px] pt-4" href="#wine">
+<p class="text-sm font-bold leading-normal tracking-[0.015em] text-text-light-secondary dark:text-text-dark-secondary hover:text-text-light-primary dark:hover:text-text-dark-primary transition-colors">Wine List</p>
+</a>
+</div>
+</div>
+<section id="lunch">
+<h2 class="text-text-light-primary dark:text-text-dark-primary text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Pranzo / Lunch</h2>
+<div class="grid grid-cols-[repeat(auto-fit,minmax(250px,1fr))] gap-4 p-4">
+<div class="flex flex-col gap-3 pb-3 group">
+<div class="w-full bg-center bg-no-repeat aspect-[4/3] bg-cover rounded-lg overflow-hidden transform group-hover:scale-105 transition-transform duration-300" data-alt="A vibrant salad, fresh pasta, and a glass of iced tea on a sunlit table." style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBeiRU0lw9PDILuibu_a7t1DhMIlWfPp4mqkithQtVa1s1os887rks9qf1d3bV_QtbdWjuBpxmxeTo3bu4i2MHhXCVaiFl5T7gZI9UFFAHAStiDVr5unTDdAXhDqPm96yrTQz2l4GJtnT-GTYkQ1WCo3GZULwvlp1xD8iGunt-W-u4IsD3pV8h9bZ9ogADRkzv1MbsnXDt7yXpVTWwy8WBFwLR8Mp3nqJkmQVdhgc4LbzOj1zaegJ1jIwoiS5AreZ8jto-QAI67Akzd");'></div>
+<div>
+<p class="text-base font-medium leading-normal text-text-light-primary dark:text-text-dark-primary">ランチセットA</p>
+<p class="text-sm font-normal leading-normal text-text-light-secondary dark:text-text-dark-secondary">サラダ、本日のパスタ、ドリンク</p>
+<p class="text-sm font-medium leading-normal text-text-light-primary dark:text-text-dark-primary mt-1">¥1,200</p>
+</div>
+</div>
+<div class="flex flex-col gap-3 pb-3 group">
+<div class="w-full bg-center bg-no-repeat aspect-[4/3] bg-cover rounded-lg overflow-hidden transform group-hover:scale-105 transition-transform duration-300" data-alt="A small appetizer plate, a bowl of steaming pasta, and a glass of juice." style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCaqnXCDrlKt4VjfGwUW8I_odgJlqLn5ZTJCTycaMA3PPOBT6fiw3gn8LZO8-rAVEeLdwsOuZ-7HsAEVtbVEJD57ZeBVmBiDQBjptCMxl96KKZ6346LtZituacI6TwoGhgEibISqgJJgw5chtRpUTwM5vr9C30cUGeakMVvi0gK4Rx9ZczZm0LNRRUjDDM9wvyAwE0zz7npsAs6h_EOkjQb-Q-hm0VvLPGYA92Lx7GM4diCcc9MgD4y0ygr4l1AsVAMGmlPHa3i1pVq");'></div>
+<div>
+<p class="text-base font-medium leading-normal text-text-light-primary dark:text-text-dark-primary">ランチセットB</p>
+<p class="text-sm font-normal leading-normal text-text-light-secondary dark:text-text-dark-secondary">前菜、本日のパスタ、ドリンク</p>
+<p class="text-sm font-medium leading-normal text-text-light-primary dark:text-text-dark-primary mt-1">¥1,500</p>
+</div>
+</div>
+<div class="flex flex-col gap-3 pb-3 group">
+<div class="w-full bg-center bg-no-repeat aspect-[4/3] bg-cover rounded-lg overflow-hidden transform group-hover:scale-105 transition-transform duration-300" data-alt="An elegant appetizer, a grilled fish main course, and a soft drink." style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuC1oouB8s7nHqoYH5IRbbbV0IfeTXn6OIBp9VSqfwIaH5qAf0n--4GtoXEHRmdXrMcBRJUXp1WtHrUYQJ_t3AcOSYQ_45qXyT6pD7Zqi2stmLP8WR7SVkGQGEB-9jLzDVy-0obHt7w3Lq73Z64NlLhD_qXEw8LAX6Kz8ctNGlokvxl7PZM682kdhKykwdyYer5Ynd_8nmfMy5CizPX01GhS2ZnHJ8muAo7mLc1WYuG20xC_zifS5X_XN0_HkzlKgVwV33p8APCwksE6");'></div>
+<div>
+<p class="text-base font-medium leading-normal text-text-light-primary dark:text-text-dark-primary">ランチセットC</p>
+<p class="text-sm font-normal leading-normal text-text-light-secondary dark:text-text-dark-secondary">前菜、メイン（魚または肉）、ドリンク</p>
+<p class="text-sm font-medium leading-normal text-text-light-primary dark:text-text-dark-primary mt-1">¥2,000</p>
+</div>
+</div>
+</div>
+</section>
+<section id="dinner">
+<h2 class="text-text-light-primary dark:text-text-dark-primary text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-8">Cena / Dinner</h2>
+<h3 class="text-text-light-primary dark:text-text-dark-primary text-lg font-bold px-4 pb-2 pt-4">Antipasti / 前菜</h3>
+<div class="grid grid-cols-[repeat(auto-fit,minmax(250px,1fr))] gap-4 p-4">
+<div class="flex flex-col gap-3 pb-3 group">
+<div class="w-full bg-center bg-no-repeat aspect-[4/3] bg-cover rounded-lg overflow-hidden transform group-hover:scale-105 transition-transform duration-300" data-alt="A platter of cured meats, cheeses, and olives." style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAhVopzrl9zuC7vJcvWNZo_XEBzxh_DE7DX3iF6tc6l0TL3uYSF-iZ8qV4i1ruuNkLZaeqEENpQBlHVQkc8mVUm5Exl-UwLrHyMj_IOVnOOKnWfLYQjtOnueBKSitdxzqFYH4ZwlCubErPPR1bVCEaW9N9UNaaHrBmEM62lyEPMliZZE5OnI4fVAieo_isy2RuTiB8sBspdZThsbp27t_gU5W9qKBZvjWbawhW-vXbxctGYV77WSELDHwOaFQLBWfYaobmM-mzH1Ywc");'></div>
+<div>
+<p class="text-base font-medium leading-normal text-text-light-primary dark:text-text-dark-primary">前菜の盛り合わせ</p>
+<p class="text-sm font-normal leading-normal text-text-light-secondary dark:text-text-dark-secondary">シェフおすすめの生ハムやチーズなど</p>
+<p class="text-sm font-medium leading-normal text-text-light-primary dark:text-text-dark-primary mt-1">¥1,800</p>
+</div>
+</div>
+<div class="flex flex-col gap-3 pb-3 group">
+<div class="w-full bg-center bg-no-repeat aspect-[4/3] bg-cover rounded-lg overflow-hidden transform group-hover:scale-105 transition-transform duration-300" data-alt="Fresh tomatoes, mozzarella, and basil drizzled with olive oil." style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCxLY5BdiIPnG8sgz6ZPL744zn7J-C3fTdxchlnh6ulrvlgMoqJu3hkpy-3_bWyQT0mzlcp4TR85PnDQRmJe0NeZGoPXa5fTWpfHWAYJ4-7s4qCIZa2eBpk9FQz8mE1jlu0G4i3Z2-8y9MCAchTjFMfbalb9tBReA7vgJ991fvleVx8BLq2fEv8P7ge1R_e-cSuMNv5eUCuf8xfg3CSk7pSVJTff5XTHe1ItRjY88vz2cEEoIv9S2LRkXVnJcE0Py98qVa9lfyQ0nQY");'></div>
+<div>
+<p class="text-base font-medium leading-normal text-text-light-primary dark:text-text-dark-primary">カプレーゼ</p>
+<p class="text-sm font-normal leading-normal text-text-light-secondary dark:text-text-dark-secondary">新鮮なトマトとモッツァレラチーズ</p>
+<p class="text-sm font-medium leading-normal text-text-light-primary dark:text-text-dark-primary mt-1">¥1,400</p>
+</div>
+</div>
+</div>
+<h3 class="text-text-light-primary dark:text-text-dark-primary text-lg font-bold px-4 pb-2 pt-4">Pasta / パスタ</h3>
+<div class="grid grid-cols-[repeat(auto-fit,minmax(250px,1fr))] gap-4 p-4">
+<div class="flex flex-col gap-3 pb-3 group">
+<div class="w-full bg-center bg-no-repeat aspect-[4/3] bg-cover rounded-lg overflow-hidden transform group-hover:scale-105 transition-transform duration-300" data-alt="Spaghetti with a rich meat sauce." style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCycPgSX_4Gsz3sDoGd7-VGb5-HwUllyie7toXRCb4X7klMNOjV5ZgfPbWWQnPxaNPACcABIcDk9f7VhPyDB861Q4APCdt5ZTPV7NXAlZp2NWlJhgsNoJ7n5nfGAnPJO4TSJIUVi-6zPlUST3yLCqaRYIgIJLU7reJD5Lr9Whv3ObjC4u7l4Yq0zvOZzb74lDFbgNYO7ayqS2WOf32w75rO4N9EWN6j5YiSza0mZqaNBLQp8uKqhG00rKT2W0ZRJC7q45CvgZA71rNJ");'></div>
+<div>
+<p class="text-base font-medium leading-normal text-text-light-primary dark:text-text-dark-primary">スパゲッティ・ボロネーゼ</p>
+<p class="text-sm font-normal leading-normal text-text-light-secondary dark:text-text-dark-secondary">じっくり煮込んだ特製ミートソース</p>
+<p class="text-sm font-medium leading-normal text-text-light-primary dark:text-text-dark-primary mt-1">¥1,600</p>
+</div>
+</div>
+<div class="flex flex-col gap-3 pb-3 group">
+<div class="w-full bg-center bg-no-repeat aspect-[4/3] bg-cover rounded-lg overflow-hidden transform group-hover:scale-105 transition-transform duration-300" data-alt="Penne pasta with a spicy tomato sauce." style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDN5oMuI4WOCwC0B4prI2zA9z9pOIoKLMNVphfDfgDfjgLcQOthyIAEIV1rcRwBrz4tLfw9qWOw-_CFI-9DRuefw9fcUNN3GwNsLqeEU2leyr6VNa14H_EWDThDlJP1qjISYL2WZyk_KK82KRQaLhuHebBOSHDmSFVhUcgD38kEW1r6-vUIK9G5T0jZnyXU0JYOd-5Uf8-UUt9EocFQHIO_USKWPdQT81uICJudkxFZcd0tgcJFgFMMEI6utx5cDGzo1XejjsXiX6ny");'></div>
+<div>
+<p class="text-base font-medium leading-normal text-text-light-primary dark:text-text-dark-primary">ペンネ・アラビアータ</p>
+<p class="text-sm font-normal leading-normal text-text-light-secondary dark:text-text-dark-secondary">ニンニクと唐辛子の辛口トマトソース</p>
+<p class="text-sm font-medium leading-normal text-text-light-primary dark:text-text-dark-primary mt-1">¥1,500</p>
+</div>
+</div>
+</div>
+<h3 class="text-text-light-primary dark:text-text-dark-primary text-lg font-bold px-4 pb-2 pt-4">Pesce / 魚料理</h3>
+<div class="grid grid-cols-[repeat(auto-fit,minmax(250px,1fr))] gap-4 p-4">
+<div class="flex flex-col gap-3 pb-3 group">
+<div class="w-full bg-center bg-no-repeat aspect-[4/3] bg-cover rounded-lg overflow-hidden transform group-hover:scale-105 transition-transform duration-300" data-alt="A beautifully grilled sea bass with lemon and herbs." style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAihqdUHNhcy6UphPShQA36B-SSTIYNCbUtMxa3-C9vwdR9KaUDOkIMNL1Kbo5jdPjtQzuhMacBLI13OAm3i-3Q0whk-NTe9wJGLS83KmqkV0YN1tfk7yjfKul4cHIhtT8-sDeqcgvdkvuUbujwRkFn3pbRdo8_OESL0VH9hIAvD7qOAtKH-5QsPPcr2s3OqScfMEZkgXSENYbnTulWPu76sIvmxYLVLFmg0xfLBJIEUXx4OiP57qKxEZ9eNzfNPhfOzGoKO98GdajV");'></div>
+<div>
+<p class="text-base font-medium leading-normal text-text-light-primary dark:text-text-dark-primary">本日鮮魚のアクアパッツァ</p>
+<p class="text-sm font-normal leading-normal text-text-light-secondary dark:text-text-dark-secondary">新鮮な魚介を白ワインで煮込んだ一品</p>
+<p class="text-sm font-medium leading-normal text-text-light-primary dark:text-text-dark-primary mt-1">¥2,800</p>
+</div>
+</div>
+</div>
+<h3 class="text-text-light-primary dark:text-text-dark-primary text-lg font-bold px-4 pb-2 pt-4">Carne / 肉料理</h3>
+<div class="grid grid-cols-[repeat(auto-fit,minmax(250px,1fr))] gap-4 p-4">
+<div class="flex flex-col gap-3 pb-3 group">
+<div class="w-full bg-center bg-no-repeat aspect-[4/3] bg-cover rounded-lg overflow-hidden transform group-hover:scale-105 transition-transform duration-300" data-alt="A juicy, thick-cut grilled beef steak with rosemary." style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBjJChO6hxIjsIV50ebFZSSm1UaQOrVLQj6AzAny5RbijCpjlLuZccb5tovb8JVSk-IEE42_v1c1zwq8yAwu78xVYvkLAK7Z8fsFyp6NAwmaAY-PwxPO5Y30rSyCWOkMW8JkxLHkT41jD97gz_58ijLKdumQMPUNIenTdLcPH2qxL8I5uN7m0hwnLUpkovWBUVxm8wXaz7gFsOIej5w2qdqe2eSJVKcwQ4uMRFA07mLSewmWGaW3RyVDi7f9fdd9W0HslIGJ_YF9w2S");'></div>
+<div>
+<p class="text-base font-medium leading-normal text-text-light-primary dark:text-text-dark-primary">牛フィレ肉のグリル バルサミコソース</p>
+<p class="text-sm font-normal leading-normal text-text-light-secondary dark:text-text-dark-secondary">柔らかい牛フィレ肉を香ばしくグリル</p>
+<p class="text-sm font-medium leading-normal text-text-light-primary dark:text-text-dark-primary mt-1">¥3,500</p>
+</div>
+</div>
+</div>
+<h3 class="text-text-light-primary dark:text-text-dark-primary text-lg font-bold px-4 pb-2 pt-4">Dolce / デザート</h3>
+<div class="grid grid-cols-[repeat(auto-fit,minmax(250px,1fr))] gap-4 p-4">
+<div class="flex flex-col gap-3 pb-3 group">
+<div class="w-full bg-center bg-no-repeat aspect-[4/3] bg-cover rounded-lg overflow-hidden transform group-hover:scale-105 transition-transform duration-300" data-alt="A classic tiramisu dessert in a glass cup." style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBVRAG6k6rrD-Uni-4VWw77LpJQwZhCpUI9_fT3jpjj6AAIZ3Ydkl7Hmig8hISMrX-ZKrQONOtxCyP30nDwVOGfpDEMY89ViTx2QZebuwCZ_7x-LCiBPeIK3vvdIlAQLI2L5UhK0x8u_sDdTdZ-aGyG4ZPCKWAa_kwFcsXB3lZHMAiL-m7TqyPi-MMDCADyGsojDSJPqZumDBr9MPjIrXOqa2j9Qt4XDyxC0qpnW0bUOcxQ56Zmxf8YUfW_bVsxl3wCs6wNm-CMypZw");'></div>
+<div>
+<p class="text-base font-medium leading-normal text-text-light-primary dark:text-text-dark-primary">ティラミス</p>
+<p class="text-sm font-normal leading-normal text-text-light-secondary dark:text-text-dark-secondary">マスカルポーネチーズたっぷりの自家製</p>
+<p class="text-sm font-medium leading-normal text-text-light-primary dark:text-text-dark-primary mt-1">¥800</p>
+</div>
+</div>
+<div class="flex flex-col gap-3 pb-3 group">
+<div class="w-full bg-center bg-no-repeat aspect-[4/3] bg-cover rounded-lg overflow-hidden transform group-hover:scale-105 transition-transform duration-300" data-alt="A creamy panna cotta with a berry sauce." style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAgkiynqGA1aGvaVFXkgljaCwYm-mV7_J4uwWnTVHmiMG5UxuNpsjf2D7nc0vg4bDD6izmBDvuxIsPB4HuQv63-m0-Pw1R_KCddk7KjuY4_uK_c3H55Wrg6RX_pThA5Hzln58L2Ron3YXp4SeZMz2xwMkIDXKkZlPRDw8BvXmNigz-ap6jaM6wf7A-iD90sb65rPrehhsycBW1N-9wNsurdtVO-_oOXq1u4hTC5qlRiS1RsDmYZ-R1tDoCd7IY1jMM4JU2rZHC1f02d");'></div>
+<div>
+<p class="text-base font-medium leading-normal text-text-light-primary dark:text-text-dark-primary">パンナコッタ</p>
+<p class="text-sm font-normal leading-normal text-text-light-secondary dark:text-text-dark-secondary">濃厚でなめらかな口当たり</p>
+<p class="text-sm font-medium leading-normal text-text-light-primary dark:text-text-dark-primary mt-1">¥700</p>
+</div>
+</div>
+</div>
+</section>
+<section class="px-4 py-8" id="wine">
+<h2 class="text-text-light-primary dark:text-text-dark-primary text-[22px] font-bold leading-tight tracking-[-0.015em] pb-3 pt-5">Lista dei Vini / ワインリスト</h2>
+<p class="text-text-light-secondary dark:text-text-dark-secondary mb-6">ソムリエがお料理に合わせて厳選したイタリアワインをご用意しております。</p>
+<div class="space-y-6">
+<div>
+<h3 class="text-text-light-primary dark:text-text-dark-primary text-lg font-bold pb-2 border-b border-border-light dark:border-border-dark mb-3">Vini Rossi / 赤ワイン</h3>
+<ul class="space-y-2">
+<li class="flex justify-between items-baseline">
+<span class="text-text-light-primary dark:text-text-dark-primary">キャンティ・クラシコ (トスカーナ)</span>
+<span class="text-text-light-secondary dark:text-text-dark-secondary">¥5,500</span>
+</li>
+<li class="flex justify-between items-baseline">
+<span class="text-text-light-primary dark:text-text-dark-primary">バローロ (ピエモンテ)</span>
+<span class="text-text-light-secondary dark:text-text-dark-secondary">¥9,000</span>
+</li>
+<li class="flex justify-between items-baseline">
+<span class="text-text-light-primary dark:text-text-dark-primary">ブルネッロ・ディ・モンタルチーノ (トスカーナ)</span>
+<span class="text-text-light-secondary dark:text-text-dark-secondary">¥12,000</span>
+</li>
+</ul>
+</div>
+<div>
+<h3 class="text-text-light-primary dark:text-text-dark-primary text-lg font-bold pb-2 border-b border-border-light dark:border-border-dark mb-3">Vini Bianchi / 白ワイン</h3>
+<ul class="space-y-2">
+<li class="flex justify-between items-baseline">
+<span class="text-text-light-primary dark:text-text-dark-primary">ピノ・グリージョ (ヴェネト)</span>
+<span class="text-text-light-secondary dark:text-text-dark-secondary">¥5,000</span>
+</li>
+<li class="flex justify-between items-baseline">
+<span class="text-text-light-primary dark:text-text-dark-primary">ガヴィ・ディ・ガヴィ (ピエモンテ)</span>
+<span class="text-text-light-secondary dark:text-text-dark-secondary">¥6,200</span>
+</li>
+<li class="flex justify-between items-baseline">
+<span class="text-text-light-primary dark:text-text-dark-primary">ソアヴェ・クラッシコ (ヴェネト)</span>
+<span class="text-text-light-secondary dark:text-text-dark-secondary">¥5,800</span>
+</li>
+</ul>
+</div>
+<div>
+<h3 class="text-text-light-primary dark:text-text-dark-primary text-lg font-bold pb-2 border-b border-border-light dark:border-border-dark mb-3">Spumante / スパークリングワイン</h3>
+<ul class="space-y-2">
+<li class="flex justify-between items-baseline">
+<span class="text-text-light-primary dark:text-text-dark-primary">プロセッコ (ヴェネト)</span>
+<span class="text-text-light-secondary dark:text-text-dark-secondary">¥4,800</span>
+</li>
+</ul>
+</div>
+</div>
+</section>
+<section class="text-center py-16 px-4">
+<h2 class="text-2xl font-bold text-text-light-primary dark:text-text-dark-primary mb-4">本場イタリアの味を、心ゆくまで</h2>
+<p class="text-text-light-secondary dark:text-text-dark-secondary mb-8 max-w-2xl mx-auto">
+                Trattoria Soleの本格的な味を体験しに、ぜひお越しください。オンラインでのご予約も承っております。
+                </p>
+<button class="flex min-w-[180px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-12 px-6 bg-primary text-white text-base font-bold leading-normal tracking-[0.015em] hover:opacity-90 transition-opacity mx-auto">
+<span class="truncate">オンラインで席を予約</span>
+</button>
+</section>
+</main>
+</div>
+</div>
+</div>
+</div>
+</body></html>

@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+
+<html lang="ja"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>ご予約 - Trattoria Sole</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@400;500;700;900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+    </style>
+<script>
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "primary": "#8B0000",
+              "background-light": "#F5F5DC",
+              "background-dark": "#221b10",
+              "accent": "#D4AF37",
+              "text-light": "#333333",
+              "text-dark": "#f5f5dc"
+            },
+            fontFamily: {
+              "display": ["Epilogue", "sans-serif"]
+            },
+            borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px"},
+          },
+        },
+      }
+    </script>
+</head>
+<body class="bg-background-light dark:bg-background-dark font-display text-text-light dark:text-text-dark">
+<div class="relative flex h-auto min-h-screen w-full flex-col group/design-root overflow-x-hidden">
+<div class="layout-container flex h-full grow flex-col">
+<div class="px-4 md:px-20 lg:px-40 flex flex-1 justify-center py-5">
+<div class="layout-content-container flex flex-col max-w-[960px] flex-1">
+<header class="flex items-center justify-between whitespace-nowrap border-b border-solid border-primary/20 dark:border-primary/40 px-4 sm:px-10 py-3">
+<div class="flex items-center gap-4 text-accent dark:text-accent">
+<div class="size-6">
+<svg fill="none" viewbox="0 0 48 48" xmlns="http://www.w3.org/2000/svg"><path clip-rule="evenodd" d="M12.0799 24L4 19.2479L9.95537 8.75216L18.04 13.4961L18.0446 4H29.9554L29.96 13.4961L38.0446 8.75216L44 19.2479L35.92 24L44 28.7521L38.0446 39.2479L29.96 34.5039L29.9554 44H18.0446L18.04 34.5039L9.95537 39.2479L4 28.7521L12.0799 24Z" fill="currentColor" fill-rule="evenodd"></path></svg>
+</div>
+<h2 class="text-accent dark:text-accent text-xl font-bold leading-tight tracking-[-0.015em]">Trattoria Sole</h2>
+</div>
+<div class="hidden md:flex flex-1 justify-end gap-8">
+<div class="flex items-center gap-9">
+<a class="text-text-light dark:text-text-dark text-sm font-medium leading-normal" href="#">Home</a>
+<a class="text-text-light dark:text-text-dark text-sm font-medium leading-normal" href="#">Menu</a>
+<a class="text-text-light dark:text-text-dark text-sm font-medium leading-normal" href="#">Access</a>
+<a class="text-primary dark:text-primary text-sm font-bold leading-normal" href="#">Reservation</a>
+</div>
+<button class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 bg-primary text-white text-sm font-bold leading-normal tracking-[0.015em]">
+<span class="truncate">Contact</span>
+</button>
+</div>
+<div class="md:hidden">
+<button class="text-text-light dark:text-text-dark">
+<span class="material-symbols-outlined">menu</span>
+</button>
+</div>
+</header>
+<main class="flex flex-col gap-12 mt-8 px-4">
+<div class="flex flex-wrap justify-between gap-3 p-4">
+<div class="flex min-w-72 flex-col gap-3">
+<p class="text-accent dark:text-accent text-4xl font-black leading-tight tracking-[-0.033em]">ご予約 / Reservation</p>
+<p class="text-text-light/80 dark:text-text-dark/80 text-base font-normal leading-normal">お電話またはオンラインフォームよりご予約いただけます。</p>
+</div>
+</div>
+<div class="flex flex-col gap-8">
+<section>
+<h2 class="text-accent dark:text-accent text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5 border-b border-primary/20 dark:border-primary/40">お電話でのご予約</h2>
+<div class="flex items-center gap-4 bg-transparent px-4 min-h-[72px] py-4 justify-between flex-wrap">
+<div class="flex items-center gap-4">
+<div class="text-primary dark:text-primary flex items-center justify-center rounded-lg bg-primary/10 dark:bg-primary/20 shrink-0 size-12">
+<span class="material-symbols-outlined" style="font-size: 24px;">phone</span>
+</div>
+<div class="flex flex-col justify-center">
+<p class="text-text-light dark:text-text-dark text-xl font-medium leading-normal line-clamp-1">03-1234-5678</p>
+<p class="text-text-light/80 dark:text-text-dark/80 text-sm font-normal leading-normal line-clamp-2">受付時間: 16:00 - 22:00</p>
+</div>
+</div>
+<div class="shrink-0 mt-2 sm:mt-0">
+<a class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-6 bg-primary/20 dark:bg-primary/30 text-primary dark:text-primary text-sm font-medium leading-normal w-fit" href="tel:03-1234-5678">
+<span class="truncate">電話をかける</span>
+</a>
+</div>
+</div>
+<p class="px-4 text-sm text-text-light/80 dark:text-text-dark/80">※5名様以上のご予約は、お電話にて承っております。</p>
+</section>
+<section class="mt-8">
+<h2 class="text-accent dark:text-accent text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5 border-b border-primary/20 dark:border-primary/40">オンライン予約フォーム</h2>
+<form class="space-y-6 p-4 mt-4">
+<div class="grid grid-cols-1 gap-6 md:grid-cols-2">
+<div>
+<label class="block text-sm font-medium text-text-light dark:text-text-dark" for="name">お名前</label>
+<input class="mt-1 block w-full rounded-md border-primary/30 dark:border-primary/50 bg-background-light dark:bg-background-dark/50 shadow-sm focus:border-primary focus:ring focus:ring-primary focus:ring-opacity-50" id="name" name="name" placeholder="例：山田 太郎" type="text"/>
+</div>
+<div>
+<label class="block text-sm font-medium text-text-light dark:text-text-dark" for="guests">人数</label>
+<select class="mt-1 block w-full rounded-md border-primary/30 dark:border-primary/50 bg-background-light dark:bg-background-dark/50 shadow-sm focus:border-primary focus:ring focus:ring-primary focus:ring-opacity-50" id="guests" name="guests">
+<option>2名</option>
+<option>3名</option>
+<option>4名</option>
+</select>
+</div>
+<div>
+<label class="block text-sm font-medium text-text-light dark:text-text-dark" for="date">ご希望日</label>
+<input class="mt-1 block w-full rounded-md border-primary/30 dark:border-primary/50 bg-background-light dark:bg-background-dark/50 shadow-sm focus:border-primary focus:ring focus:ring-primary focus:ring-opacity-50" id="date" name="date" style="color-scheme: dark;" type="date"/>
+</div>
+<div>
+<label class="block text-sm font-medium text-text-light dark:text-text-dark" for="time">ご希望時間</label>
+<select class="mt-1 block w-full rounded-md border-primary/30 dark:border-primary/50 bg-background-light dark:bg-background-dark/50 shadow-sm focus:border-primary focus:ring focus:ring-primary focus:ring-opacity-50" id="time" name="time">
+<option>18:00</option>
+<option>18:30</option>
+<option>19:00</option>
+<option>19:30</option>
+<option>20:00</option>
+</select>
+</div>
+</div>
+<div class="flex items-center">
+<input class="h-4 w-4 rounded border-primary/30 text-primary focus:ring-primary" id="privacy" name="privacy" type="checkbox"/>
+<label class="ml-2 block text-sm text-text-light dark:text-text-dark" for="privacy">プライバシーポリシーに同意する</label>
+</div>
+<div>
+<button class="w-full flex justify-center py-3 px-4 border border-transparent rounded-lg shadow-sm text-sm font-bold text-white bg-primary hover:bg-primary/90 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary" type="submit">
+                                        予約内容を確認する
+                                    </button>
+</div>
+</form>
+</section>
+<section class="mt-8">
+<h2 class="text-accent dark:text-accent text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5 border-b border-primary/20 dark:border-primary/40">予約の流れ</h2>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-6 px-4">
+<div class="flex flex-col items-center text-center">
+<div class="flex items-center justify-center size-16 rounded-full bg-primary/10 dark:bg-primary/20 text-primary dark:text-primary mb-4">
+<span class="material-symbols-outlined text-3xl">edit_document</span>
+</div>
+<h3 class="font-bold text-lg text-text-light dark:text-text-dark">1. フォーム入力</h3>
+<p class="text-sm text-text-light/80 dark:text-text-dark/80 mt-1">必要事項をご入力ください。</p>
+</div>
+<div class="flex flex-col items-center text-center">
+<div class="flex items-center justify-center size-16 rounded-full bg-primary/10 dark:bg-primary/20 text-primary dark:text-primary mb-4">
+<span class="material-symbols-outlined text-3xl">task_alt</span>
+</div>
+<h3 class="font-bold text-lg text-text-light dark:text-text-dark">2. 内容確認</h3>
+<p class="text-sm text-text-light/80 dark:text-text-dark/80 mt-1">入力内容に間違いがないかご確認ください。</p>
+</div>
+<div class="flex flex-col items-center text-center">
+<div class="flex items-center justify-center size-16 rounded-full bg-primary/10 dark:bg-primary/20 text-primary dark:text-primary mb-4">
+<span class="material-symbols-outlined text-3xl">mark_email_read</span>
+</div>
+<h3 class="font-bold text-lg text-text-light dark:text-text-dark">3. 予約完了</h3>
+<p class="text-sm text-text-light/80 dark:text-text-dark/80 mt-1">予約完了メールをお送りします。</p>
+</div>
+</div>
+</section>
+</div>
+</main>
+<footer class="mt-20 border-t border-primary/20 dark:border-primary/40 py-8 px-4 sm:px-10 text-center text-text-light/70 dark:text-text-dark/70">
+<div class="flex flex-col items-center gap-4">
+<div class="flex items-center gap-4 text-accent dark:text-accent">
+<div class="size-5">
+<svg fill="none" viewbox="0 0 48 48" xmlns="http://www.w3.org/2000/svg"><path clip-rule="evenodd" d="M12.0799 24L4 19.2479L9.95537 8.75216L18.04 13.4961L18.0446 4H29.9554L29.96 13.4961L38.0446 8.75216L44 19.2479L35.92 24L44 28.7521L38.0446 39.2479L29.96 34.5039L29.9554 44H18.0446L18.04 34.5039L9.95537 39.2479L4 28.7521L12.0799 24Z" fill="currentColor" fill-rule="evenodd"></path></svg>
+</div>
+<h2 class="text-accent dark:text-accent text-lg font-bold leading-tight tracking-[-0.015em]">Trattoria Sole</h2>
+</div>
+<p class="text-sm">東京都千代田区丸の内1-2-3</p>
+<p class="text-sm">営業時間: 18:00 - 23:00</p>
+<div class="flex gap-4 mt-2">
+<a class="text-text-light/70 dark:text-text-dark/70 hover:text-primary" href="#">Facebook</a>
+<a class="text-text-light/70 dark:text-text-dark/70 hover:text-primary" href="#">Instagram</a>
+</div>
+<p class="text-xs mt-4">© 2024 Trattoria Sole. All Rights Reserved.</p>
+</div>
+</footer>
+</div>
+</div>
+</div>
+</div>
+</body></html>
