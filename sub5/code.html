@@ -6,39 +6,39 @@
 <title>Gallery - Trattoria Sole</title>
 <link href="https://fonts.googleapis.com" rel="preconnect"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
-<link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@400;500;700;900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@400;500;700;900&display=swap" rel="stylesheet"/>
 <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
 <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
 <style>
-    .material-symbols-outlined {
-      font-variation-settings:
-      'FILL' 0,
-      'wght' 400,
-      'GRAD' 0,
-      'opsz' 24
-    }
-  </style>
+    .material-symbols-outlined {
+      font-variation-settings:
+      'FILL' 0,
+      'wght' 400,
+      'GRAD' 0,
+      'opsz' 24
+    }
+  </style>
 <script>
-    tailwind.config = {
-      darkMode: "class",
-      theme: {
-        extend: {
-          colors: {
-            "primary": "#8B4513",
-            "background-light": "#F5F5DC",
-            "background-dark": "#221b10",
-            "text-light": "#36454F",
-            "text-dark": "#F5F5DC",
-            "accent": "#A52A2A"
-          },
-          fontFamily: {
-            "display": ["Epilogue", "sans-serif"]
-          },
-          borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px"},
-        },
-      },
-    }
-  </script>
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          colors: {
+            "primary": "#8B4513",
+            "background-light": "#F5F5DC",
+            "background-dark": "#221b10",
+            "text-light": "#36454F",
+            "text-dark": "#F5F5DC",
+            "accent": "#A52A2A"
+          },
+          fontFamily: {
+            "display": ["Epilogue", "sans-serif"]
+          },
+          borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px"},
+        },
+      },
+    }
+  </script>
 </head>
 <body class="font-display bg-background-light dark:bg-background-dark text-text-light dark:text-text-dark">
 <div class="relative flex h-auto min-h-screen w-full flex-col group/design-root overflow-x-hidden">
@@ -52,19 +52,21 @@
 <path clip-rule="evenodd" d="M12.0799 24L4 19.2479L9.95537 8.75216L18.04 13.4961L18.0446 4H29.9554L29.96 13.4961L38.0446 8.75216L44 19.2479L35.92 24L44 28.7521L38.0446 39.2479L29.96 34.5039L29.9554 44H18.0446L18.04 34.5039L9.95537 39.2479L4 28.7521L12.0799 24Z" fill="currentColor" fill-rule="evenodd"></path>
 </svg>
 </div>
+<a href="../top/code.html">
 <h2 class="text-lg font-bold leading-tight tracking-[-0.015em] text-text-light dark:text-text-dark">Trattoria Sole</h2>
+</a>
 </div>
 <div class="hidden md:flex flex-1 justify-end gap-8">
 <div class="flex items-center gap-9">
-<a class="text-sm font-medium leading-normal text-text-light dark:text-text-dark hover:text-accent dark:hover:text-primary" href="#">Home</a>
-<a class="text-sm font-medium leading-normal text-text-light dark:text-text-dark hover:text-accent dark:hover:text-primary" href="#">Menu</a>
+<a class="text-sm font-medium leading-normal text-text-light dark:text-text-dark hover:text-accent dark:hover:text-primary" href="../top/code.html">Home</a>
+<a class="text-sm font-medium leading-normal text-text-light dark:text-text-dark hover:text-accent dark:hover:text-primary" href="../sub1/code.html">Menu</a>
 <a class="text-sm font-medium leading-normal text-accent dark:text-primary" href="#">Gallery</a>
-<a class="text-sm font-medium leading-normal text-text-light dark:text-text-dark hover:text-accent dark:hover:text-primary" href="#">About Us</a>
-<a class="text-sm font-medium leading-normal text-text-light dark:text-text-dark hover:text-accent dark:hover:text-primary" href="#">Contact</a>
+<a class="text-sm font-medium leading-normal text-text-light dark:text-text-dark hover:text-accent dark:hover:text-primary" href="../sub2/code.html">About Us</a>
+<a class="text-sm font-medium leading-normal text-text-light dark:text-text-dark hover:text-accent dark:hover:text-primary" href="../sub3/code.html">Contact</a>
 </div>
-<button class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 bg-primary text-white text-sm font-bold leading-normal tracking-[0.015em] hover:bg-primary/90 transition-colors">
+<a href="../sub4/code.html" class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 bg-primary text-white text-sm font-bold leading-normal tracking-[0.015em] hover:bg-primary/90 transition-colors">
 <span class="truncate">Book a Table</span>
-</button>
+</a>
 </div>
 <button class="md:hidden flex items-center justify-center size-10 rounded-lg hover:bg-primary/10 transition-colors">
 <span class="material-symbols-outlined text-text-light dark:text-text-dark" data-icon="menu">menu</span>
@@ -143,13 +145,12 @@
 <div class="flex flex-1 justify-center">
 <div class="flex justify-center">
 <div class="flex flex-1 gap-3 flex-wrap max-w-[480px] justify-center">
-<button class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 @[480px]:h-12 @[480px]:px-5 bg-primary text-white text-sm font-bold leading-normal tracking-[0.015em] @[480px]:text-base @[480px]:font-bold @[480px]:leading-normal @[480px]:tracking-[0.015em] grow hover:bg-primary/90 transition-colors">
+<a href="../sub4/code.html" class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 @[480px]:h-12 @[480px]:px-5 bg-primary text-white text-sm font-bold leading-normal tracking-[0.015em] @[480px]:text-base @[480px]:font-bold @[480px]:leading-normal @[480px]:tracking-[0.015em] grow hover:bg-primary/90 transition-colors">
 <span class="truncate">オンライン予約へ進む</span>
-</button>
-<button class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 @[480px]:h-12 @[480px]:px-5 bg-primary/20 dark:bg-primary/30 text-text-light dark:text-text-dark text-sm font-bold leading-normal tracking-[0.015em] @[480px]:text-base @[480px]:font-bold @[480px]:leading-normal @[480px]:tracking-[0.015em] grow hover:bg-primary/30 dark:hover:bg-primary/40 transition-colors">
+</a>
+<a href="../sub1/code.html" class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 @[480px]:h-12 @[480px]:px-5 bg-primary/20 dark:bg-primary/30 text-text-light dark:text-text-dark text-sm font-bold leading-normal tracking-[0.015em] @[480px]:text-base @[480px]:font-bold @[480px]:leading-normal @[480px]:tracking-[0.015em] grow hover:bg-primary/30 dark:hover:bg-primary/40 transition-colors">
 <span class="truncate">メニュー一覧</span>
-</button>
-</div>
+</a>
 </div>
 </div>
 </div>
