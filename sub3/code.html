@@ -5,44 +5,43 @@
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
 <title>Access - Trattoria Sole</title>
 <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
-<link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@400;500;700;900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@400;500;700;900&display=swap" rel="stylesheet"/>
 <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
 <script id="tailwind-config">
-    tailwind.config = {
-      darkMode: "class",
-      theme: {
-        extend: {
-          colors: {
-            "primary": "#eea02b",
-            "background-light": "#f8f7f6",
-            "background-dark": "#221b10",
-            "text-light-primary": "#1b160d",
-            "text-light-secondary": "#9a7b4c",
-            "border-light": "#e7decf",
-            "text-dark-primary": "#f8f7f6",
-            "text-dark-secondary": "#a89987",
-            "border-dark": "#443620"
-          },
-          fontFamily: {
-            "display": ["Epilogue", "sans-serif"]
-          },
-          borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px"},
-        },
-      },
-    }
-  </script>
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          colors: {
+            "primary": "#eea02b",
+            "background-light": "#f8f7f6",
+            "background-dark": "#221b10",
+            "text-light-primary": "#1b160d",
+            "text-light-secondary": "#9a7b4c",
+            "border-light": "#e7decf",
+            "text-dark-primary": "#f8f7f6",
+            "text-dark-secondary": "#a89987",
+            "border-dark": "#443620"
+          },
+          fontFamily: {
+            "display": ["Epilogue", "sans-serif"]
+          },
+          borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px"},
+        },
+      },
+    }
+  </script>
 <style>
-    .material-symbols-outlined {
-      font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
-    }
-  </style>
+    .material-symbols-outlined {
+      font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+    }
+  </style>
 </head>
 <body class="font-display bg-background-light dark:bg-background-dark">
 <div class="relative flex h-auto min-h-screen w-full flex-col group/design-root overflow-x-hidden">
 <div class="layout-container flex h-full grow flex-col">
 <div class="px-4 sm:px-8 md:px-20 lg:px-40 flex flex-1 justify-center py-5">
 <div class="layout-content-container flex flex-col max-w-[960px] flex-1">
-<!-- TopNavBar -->
 <header class="flex items-center justify-between whitespace-nowrap border-b border-solid border-border-light dark:border-border-dark px-4 sm:px-10 py-3">
 <div class="flex items-center gap-4 text-text-light-primary dark:text-text-dark-primary">
 <div class="size-6 text-primary">
@@ -50,13 +49,15 @@
 <path clip-rule="evenodd" d="M12.0799 24L4 19.2479L9.95537 8.75216L18.04 13.4961L18.0446 4H29.9554L29.96 13.4961L38.0446 8.75216L44 19.2479L35.92 24L44 28.7521L38.0446 39.2479L29.96 34.5039L29.9554 44H18.0446L18.04 34.5039L9.95537 39.2479L4 28.7521L12.0799 24Z" fill-rule="evenodd"></path>
 </svg>
 </div>
+<a href="../top/code.html">
 <h1 class="text-xl font-bold leading-tight tracking-[-0.015em]">Trattoria Sole</h1>
+</a>
 </div>
 <nav class="hidden md:flex flex-1 justify-end gap-8">
 <div class="flex items-center gap-9">
-<a class="text-text-light-primary dark:text-text-dark-primary text-sm font-medium leading-normal hover:text-primary dark:hover:text-primary transition-colors" href="#">Home</a>
-<a class="text-text-light-primary dark:text-text-dark-primary text-sm font-medium leading-normal hover:text-primary dark:hover:text-primary transition-colors" href="#">Menu</a>
-<a class="text-text-light-primary dark:text-text-dark-primary text-sm font-medium leading-normal hover:text-primary dark:hover:text-primary transition-colors" href="#">Gallery</a>
+<a class="text-text-light-primary dark:text-text-dark-primary text-sm font-medium leading-normal hover:text-primary dark:hover:text-primary transition-colors" href="../top/code.html">Home</a>
+<a class="text-text-light-primary dark:text-text-dark-primary text-sm font-medium leading-normal hover:text-primary dark:hover:text-primary transition-colors" href="../sub1/code.html">Menu</a>
+<a class="text-text-light-primary dark:text-text-dark-primary text-sm font-medium leading-normal hover:text-primary dark:hover:text-primary transition-colors" href="../sub5/code.html">Gallery</a>
 <a class="text-primary dark:text-primary text-sm font-bold leading-normal" href="#">Access/Contact</a>
 </div>
 </nav>
@@ -65,20 +66,16 @@
 </button>
 </header>
 <main class="flex-grow pt-8 sm:pt-12 md:pt-16">
-<!-- PageHeading -->
 <div class="flex flex-wrap justify-between gap-3 p-4">
 <div class="flex flex-col gap-3">
 <p class="text-text-light-primary dark:text-text-dark-primary text-4xl font-black leading-tight tracking-[-0.033em]">Access</p>
 <p class="text-text-light-secondary dark:text-text-dark-secondary text-base font-normal leading-normal">Trattoria Soleへのアクセス情報</p>
 </div>
 </div>
-<!-- Map -->
 <div class="flex px-4 py-8">
 <div class="w-full h-96 bg-center bg-no-repeat aspect-video bg-cover rounded-lg object-cover" data-alt="A map showing the location of Trattoria Sole in Omotesando, Tokyo." data-location="Tokyo" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuALJ6H7NxYwzcfMEpZK1N8jt5iDjyiYlEDmRHBW6YUICG0GbVi1c7-vp7Y0Ma6alxmspbTTbpDQ0Nuo8o-fDhl3Gme19R7Flu9yETthjRosQXpLeWSIDi_CDo7GKiF-I5CjRf2XgS_COF-Qs4LwlSAECQuiXzxtq3x1ZDHGCOUS8zgPIayF21BShIuOl1yzipMVIX2KTlV9lbykWxp0k-nP51tL4IhsiLlwWxrm3Y_xdUFCPjtpVYDpoJA11PIBeu_LeNcM-FvdHYMF");'></div>
 </div>
-<!-- SectionHeader -->
 <h2 class="text-text-light-primary dark:text-text-dark-primary text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">店舗詳細</h2>
-<!-- DescriptionList -->
 <div class="p-4 grid grid-cols-1 md:grid-cols-[20%_1fr] gap-x-6">
 <div class="col-span-1 md:col-span-2 grid grid-cols-subgrid border-t border-t-border-light dark:border-t-border-dark py-5">
 <p class="text-text-light-secondary dark:text-text-dark-secondary text-sm font-normal leading-normal pb-1 md:pb-0">住所</p>
@@ -106,15 +103,13 @@ Dinner: 17:30 - 22:00 (L.O. 21:00)</p>
 <p class="text-text-light-primary dark:text-text-dark-primary text-sm font-normal leading-normal">近隣のコインパーキングをご利用ください</p>
 </div>
 </div>
-<!-- CTA Button -->
 <div class="px-4 py-8 flex justify-center">
 <a class="flex items-center justify-center gap-2 bg-primary text-white font-bold py-3 px-8 rounded-lg hover:opacity-90 transition-opacity" href="tel:03-1234-5678">
 <span class="material-symbols-outlined" data-icon="phone">call</span>
-                電話で予約する
-              </a>
+                電話で予約する
+              </a>
 </div>
 </main>
-<!-- Footer -->
 <footer class="mt-16 border-t border-solid border-border-light dark:border-border-dark px-4 sm:px-10 py-8">
 <div class="flex flex-col md:flex-row justify-between items-center gap-6">
 <div class="flex items-center gap-4 text-text-light-primary dark:text-text-dark-primary">
@@ -126,9 +121,9 @@ Dinner: 17:30 - 22:00 (L.O. 21:00)</p>
 <h3 class="text-lg font-bold">Trattoria Sole</h3>
 </div>
 <nav class="flex flex-wrap justify-center gap-x-6 gap-y-2 text-sm">
-<a class="text-text-light-primary dark:text-text-dark-primary hover:text-primary dark:hover:text-primary transition-colors" href="#">Home</a>
-<a class="text-text-light-primary dark:text-text-dark-primary hover:text-primary dark:hover:text-primary transition-colors" href="#">Menu</a>
-<a class="text-text-light-primary dark:text-text-dark-primary hover:text-primary dark:hover:text-primary transition-colors" href="#">Gallery</a>
+<a class="text-text-light-primary dark:text-text-dark-primary hover:text-primary dark:hover:text-primary transition-colors" href="../top/code.html">Home</a>
+<a class="text-text-light-primary dark:text-text-dark-primary hover:text-primary dark:hover:text-primary transition-colors" href="../sub1/code.html">Menu</a>
+<a class="text-text-light-primary dark:text-text-dark-primary hover:text-primary dark:hover:text-primary transition-colors" href="../sub5/code.html">Gallery</a>
 <a class="text-text-light-primary dark:text-text-dark-primary hover:text-primary dark:hover:text-primary transition-colors" href="#">Access/Contact</a>
 </nav>
 <p class="text-xs text-text-light-secondary dark:text-text-dark-secondary">© 2024 Trattoria Sole. All Rights Reserved.</p>
